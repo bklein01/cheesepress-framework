@@ -1,1 +1,0 @@
-#CheesePress Framework for WordPress plugin development#
