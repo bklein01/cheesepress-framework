@@ -1,0 +1,13 @@
+{
+    "name": "bklein01/cheesepress-framework",
+    "description": "Inspired by ActiveRecord, Churro, and WP Boilerplate, CheesePress gives a nice framework for WordPress plugin development.",
+    "authors": [
+        {
+            "name": "Ben Klein",
+            "email": "ben@kleinis.me"
+        }
+    ],
+    "require": {
+        "php-activerecord/php-activerecord": "dev-master"
+    }
+}
