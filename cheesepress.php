@@ -33,7 +33,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Public-Facing Functionality
  *----------------------------------------------------------------------------*/
 
-require_once( plugin_dir_path( __FILE__ ) . '/class-myclasshelper.php' );
+require_once( plugin_dir_path( __FILE__ ) . '/class-cheesepress.php' );
 require_once( plugin_dir_path( __FILE__ ) . '/vendor/autoload.php' );
 
 ActiveRecord\Config::initialize(function($cfg)
@@ -114,7 +114,7 @@ if( !class_exists('Custom_Churro') ){
 }
 
 // base class
-require WP_PLUGIN_DIR.'/cheesepress/framework/_class_Churro.php';
+require plugin_dir_path( __FILE__ ) . 'framework/_class_Churro.php';
 	
 // get this thing going as early as possible.
 if( is_admin() ){
